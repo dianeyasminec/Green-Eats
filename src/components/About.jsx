@@ -1,8 +1,11 @@
 import React from 'react'
+import SlideShow from './SlideShow';
 
 export default function About() {
   return (
     <div className='text-center'>
+      <SlideShow/>
+      <div className=''>
         <h2>About Our Website</h2>
         <p>Welcome to our website dedicated to gluten-free food lovers!
            We are passionate about providing you with delicious and healthy
@@ -33,6 +36,7 @@ export default function About() {
             for gluten-free food. Our community is a place where you can connect with other 
             food lovers, share your own recipes, and get advice and inspiration from others.
         </p>
+    </div>
     </div>
   )
 }

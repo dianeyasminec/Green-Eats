@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink, Outlet } from 'react-router-dom';
-
+import Navbar from 'react-bootstrap/Navbar';
 
 
 
@@ -10,7 +10,7 @@ export default function Layout() {
     <div className='root-layout'>
     <header>
       <nav>
-        <h1 className='text-dark'>Anala's recipes</h1>
+      <Navbar.Brand href="#home">Anala's recipes</Navbar.Brand>
         <NavLink to="/">About</NavLink>
         <NavLink to="allrecipes">All Recipes</NavLink>
         <NavLink to="reviews">Reviews</NavLink>

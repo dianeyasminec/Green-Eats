@@ -14,13 +14,14 @@ import HelpLayout from './components/HelpLayout';
 import Faq from './components/Faq';
 import Contact from './components/Contact';
 import NotFound from './components/NotFound';
+import SlideShow from './components/SlideShow';
 
 
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<Layout />}>
-          <Route index element={ <About />}/>
+          <Route index element={<About><SlideShow /></About>}/>
           <Route path='allrecipes'  element={ <AllRecipes />}/>
           <Route path='reviews'  element={ <Reviews />}/>
           
