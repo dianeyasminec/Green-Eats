@@ -18,6 +18,23 @@ body {
   box-sizing: border-box;
 }
 
+/* Styles for desktop screens */
+@media only screen and (min-width: 768px) {
+  /* Add your desktop styles here */
+}
+
+/* Styles for tablet screens */
+@media only screen and (max-width: 767px) and (min-width: 480px) {
+  /* Add your tablet styles here */
+}
+
+/* Styles for mobile screens */
+@media only screen and (max-width: 479px) {
+  /* Add your mobile styles here */
+}
+
+
+
 p {
   margin: 20px 0;
 }
