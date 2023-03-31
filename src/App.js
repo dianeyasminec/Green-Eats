@@ -15,6 +15,7 @@ import Faq from './components/Faq';
 import Contact from './components/Contact';
 import NotFound from './components/NotFound';
 import SlideShow from './components/SlideShow';
+import ScrollToTop from './components/ScrollToTop';
 
 
 
@@ -41,8 +42,8 @@ function App() {
     <>
       <RouterProvider router={router}/>
         
-   
-  <Footer/>
+  <ScrollToTop />
+  <Footer className='m-3'/>
     </>
   );
 }

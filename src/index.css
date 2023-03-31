@@ -16,7 +16,7 @@ body {
 /* Remove margin and background-color from "*" selector */
 * {
   box-sizing: border-box;
-  background-color: cornsilk;
+  /* background-color: cornsilk; */
 }
 
 /* Styles for desktop screens */

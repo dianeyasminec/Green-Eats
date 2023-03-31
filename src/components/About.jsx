@@ -31,7 +31,7 @@ export default function About() {
         </p>
 
         <h2>Our Community</h2>
-        <p>We believe that cooking and eating should be a communal experience, which is
+        <p className='p-5'>We believe that cooking and eating should be a communal experience, which is
            why we have created a community of like-minded individuals who share our passion
             for gluten-free food. Our community is a place where you can connect with other 
             food lovers, share your own recipes, and get advice and inspiration from others.
