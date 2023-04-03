@@ -39,7 +39,7 @@ const {details} =  props
 
        {details.map((detail,id) =>{
         return(
-             <Cards title={detail.title}  ingredients={detail.ingredients} image={detail.image} 
+             <Cards key={id} title={detail.title}  ingredients={detail.ingredients} image={detail.image} 
              recipe={detail.recipe} servings={detail.serving} category={detail.category}
              />
         )
