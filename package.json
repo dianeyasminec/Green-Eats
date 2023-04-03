@@ -47,6 +47,7 @@
     ]
   },
   "devDependencies": {
+    "@iconify/react": "^4.1.0",
     "husky": "^8.0.3",
     "pre-commit": "latest",
     "prettier": "2.8.7"

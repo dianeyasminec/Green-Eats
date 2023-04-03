@@ -1,7 +1,7 @@
 import React from 'react';
-import { FaFish } from 'react-icons/fa';
-import { GiMeal } from 'react-icons/gi';
-import { BsCircleFill } from 'react-icons/bs';
+import { Icon } from '@iconify/react';
+// import { Icon } from '@iconify/react';
+// import { Icon } from '@iconify/react';
 
 export default function Cards(props) {
   const {
@@ -14,12 +14,12 @@ export default function Cards(props) {
   } = props;
 
   const renderCategory = (category) => {
-    if (category === 'fishs') {
-      return <FaFish aria-label="Fish" />;
-    } else if (category === 'meats') {
-      return <GiMeal aria-label="Meat" />;
-    } else if (category === 'gf') {
-      return <BsCircleFill aria-label="Gluten-free" />;
+    if (category === 'fish') {
+      return <Icon icon="noto-v1:fish" color="blue" width="40" height="40" hFlip={true} />;
+    } else if (category === 'meat') {
+      return <Icon icon="game-icons:steak" color="red" width="40" height="40" />;
+    } else if (category === 'gluten-free') {
+      return <Icon icon="mdi:gluten-free" color="green" width="40" height="40" />;
     } else {
       return null;
     }
