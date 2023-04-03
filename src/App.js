@@ -16,6 +16,7 @@ import Contact from './components/Contact';
 import NotFound from './components/NotFound';
 import SlideShow from './components/SlideShow';
 import ScrollToTop from './components/ScrollToTop';
+import details from './data/details'
 
 
 
@@ -23,7 +24,7 @@ const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<Layout />}>
           <Route index element={<About><SlideShow /></About>}/>
-          <Route path='allrecipes'  element={ <AllRecipes />}/>
+          <Route path='allrecipes'  element={ <AllRecipes details={details}/>}/>
           <Route path='reviews'  element={ <Reviews />}/>
           
           {/* Nested Routes */}
