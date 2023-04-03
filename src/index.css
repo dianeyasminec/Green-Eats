@@ -43,7 +43,10 @@ body {
   height: auto;
   object-fit: cover; /* Crop image to fill container, while maintaining aspect ratio */
 }
-
+img{
+  height: 150px;
+  width: 150px;
+}
 p {
   margin: 20px 0;
 }

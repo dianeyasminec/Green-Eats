@@ -31,14 +31,14 @@ export default function Cards(props) {
           <div className='card-body lead'>
             <div className='d-flex justify-content-evenly '></div>
 
-            <img src={image} alt={title}/>
+            <img src={image} alt={title} className='img'/>
             <h3 className='card-title'>
               {title} 
             </h3>
-            <p className=''>{ingredients}</p>
-            <p className=''>{recipe}</p>
-            <p className=''> serving: {servings}
-                {renderCategory(category)}
+            <p className=''>Ingredients: {ingredients}</p>
+            <p className=''>Recipe: {recipe}</p>
+            <p className=''> 
+                Category: {renderCategory(category)}
             </p>
             <div className='d-grid justify-content-end mt-'></div>
           </div>
