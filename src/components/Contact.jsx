@@ -1,6 +1,10 @@
-// import "./Contact.css";
+
+import { useState } from "react";
 
 export default function Contact() {
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
   const handleSubmit = (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
@@ -8,6 +12,9 @@ export default function Contact() {
       email: formData.get("email"),
       message: formData.get("message"),
     });
+    alert("Your message has been sent!");
+    setEmail("");
+    setMessage("");
   };
 
   return (
@@ -21,6 +28,8 @@ export default function Contact() {
             name="email"
             required
             className="contact-input"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
           />
         </label>
         <label className="contact-label">
@@ -29,6 +38,8 @@ export default function Contact() {
             name="message"
             required
             className="contact-input contact-textarea"
+            value={message}
+            onChange={(e) => setMessage(e.target.value)}
           ></textarea>
         </label>
         <button type="submit" className="contact-button">
@@ -38,4 +49,5 @@ export default function Contact() {
     </div>
   );
 }
+
 
