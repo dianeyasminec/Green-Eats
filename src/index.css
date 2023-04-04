@@ -88,7 +88,7 @@ header nav a{
 }
 header nav a.active {
   /* var(--primary) */
-  background: ;
+  
   font-weight: bold;
 }
 
