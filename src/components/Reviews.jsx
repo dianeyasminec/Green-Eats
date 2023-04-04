@@ -26,6 +26,8 @@ const Reviews = () => {
   const rightReviews = reviews.slice(half);
 
   return (
+    <>
+    <h2 className='text-center p-3'>Reviews</h2>
     <div style={{ display: 'flex' }}>
       <div style={{ flex: 1 }}>
         {leftReviews.map((review) => (
@@ -33,6 +35,7 @@ const Reviews = () => {
             <h3>{review.user}</h3>
             <p>{renderStars(review.rating)}</p>
             <p>{review.comment}</p>
+            {review.image && <img src={review.image} alt="User uploaded image"/>}
           </div>
         ))}
       </div>
@@ -42,14 +45,17 @@ const Reviews = () => {
             <h3>{review.user}</h3>
             <p>{renderStars(review.rating)}</p>
             <p>{review.comment}</p>
+            {review.image && <img src={review.image} alt="User uploaded image"/>}
           </div>
         ))}
       </div>
     </div>
+    </>
   );
 };
 
 export default Reviews;
+
 
 
 

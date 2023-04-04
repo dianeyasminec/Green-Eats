@@ -69,7 +69,7 @@ header nav {
 }
 header nav h1 {
   margin-right: auto;
-  border-bottom: 3px solid var(--primary);
+  border-bottom: 3px solid black;
 }
 header nav a{
   text-decoration: none;
@@ -78,7 +78,7 @@ header nav a{
 }
 header nav a.active {
   /* var(--primary) */
-  background: cornsilk;
+  background: lightgreen;
 }
 
 /* page content */
