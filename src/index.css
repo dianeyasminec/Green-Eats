@@ -169,6 +169,65 @@ h2 {
   font-weight: bold;
   /* margin-bottom: */
 }
+
+.contact-container {
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 30px;
+}
+
+.contact-heading {
+  color: #333;
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.contact-span {
+  color: #333;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.contact-input,
+.contact-textarea {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.contact-textarea {
+  height: 150px;
+}
+
+.contact-button {
+  background-color: #f28d00;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 20px;
+  padding: 10px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.contact-button:hover {
+  background-color: #e77e00;
+}
+
 /* careers list */
 
 

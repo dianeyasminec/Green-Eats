@@ -1,3 +1,5 @@
+// import "./Contact.css";
+
 export default function Contact() {
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -9,19 +11,31 @@ export default function Contact() {
   };
 
   return (
-    <div className="contact text-dark">
-      <h3>Contact Us</h3>
-      <form onSubmit={handleSubmit}>
-        <label>
-          <span>Your email:</span>
-          <input type="email" name="email" required className="form-input" />
+    <div className="contact-container">
+      <h3 className="contact-heading">Contact Us</h3>
+      <form onSubmit={handleSubmit} className="contact-form">
+        <label className="contact-label">
+          <span className="contact-span">Your email:</span>
+          <input
+            type="email"
+            name="email"
+            required
+            className="contact-input"
+          />
         </label>
-        <label>
-          <span>Your message:</span>
-          <textarea name="message" required className="form-input"></textarea>
+        <label className="contact-label">
+          <span className="contact-span">Your message:</span>
+          <textarea
+            name="message"
+            required
+            className="contact-input contact-textarea"
+          ></textarea>
         </label>
-        <button className="form-button">Submit</button>
+        <button type="submit" className="contact-button">
+          Submit
+        </button>
       </form>
     </div>
   );
 }
+
