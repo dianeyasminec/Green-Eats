@@ -18,8 +18,9 @@ export default function Contact() {
   };
 
   return (
+    <>
+      <h3 className="contact-heading text-center">Contact Us</h3>
     <div className="contact-container">
-      <h3 className="contact-heading">Contact Us</h3>
       <form onSubmit={handleSubmit} className="contact-form">
         <label className="contact-label">
           <span className="contact-span">Your email:</span>
@@ -47,7 +48,9 @@ export default function Contact() {
         </button>
       </form>
     </div>
+    </>
   );
 }
+
 
 
