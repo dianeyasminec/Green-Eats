@@ -1,10 +1,13 @@
 import React from 'react'
-import SlideShow from './SlideShow';
+import gif from './Images/sl11.jpg'
 
 export default function About() {
   return (
     <div className='text-center'>
-      <SlideShow/>
+     <div>
+      <img src={gif} alt="My animated GIF" className='homepage-image'/>
+      <p>~Food is not just eating energy. It's an experience~</p>
+    </div>
       <div className=''>
         <h2>About Our Website</h2>
         <p>Welcome to our website dedicated to gluten-free food lovers!

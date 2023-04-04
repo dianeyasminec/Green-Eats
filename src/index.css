@@ -66,6 +66,14 @@ header nav {
   justify-content: flex-end;
   max-width: 1200px;
   margin: 0 auto;
+  background-color: green;
+  color: #fff;
+  padding: 10px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 header nav h1 {
   margin-right: auto;
@@ -75,10 +83,13 @@ header nav a{
   text-decoration: none;
   padding: 6px;
   border-radius: 4px;
+  color: #fff;
+  margin: 0 10px;
 }
 header nav a.active {
   /* var(--primary) */
-  background: lightgreen;
+  background: ;
+  font-weight: bold;
 }
 
 /* page content */
