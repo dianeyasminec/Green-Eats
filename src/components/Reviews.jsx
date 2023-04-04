@@ -2,12 +2,12 @@ import React, { useState } from 'react';
 
 const Reviews = () => {
   const [reviews, setReviews] = useState([
-    { id: 1, user: 'John', rating: 5, comment: 'This recipe is amazing!', image: 'https://via.placeholder.com/50' },
-    { id: 2, user: 'Jane', rating: 4, comment: 'It was pretty good.', image: 'https://via.placeholder.com/50' },
-    { id: 3, user: 'Bob', rating: 3, comment: 'It was just okay.', image: 'https://via.placeholder.com/50' },
-    { id: 4, user: 'Alice', rating: 2, comment: 'I did not like it.', image: 'https://via.placeholder.com/50' },
-    { id: 5, user: 'Charlie', rating: 5, comment: 'Best recipe ever!', image: 'https://via.placeholder.com/50' },
-    { id: 6, user: 'Eve', rating: 4, comment: 'Good recipe.', image: 'https://via.placeholder.com/50' },
+    { id: 1, user: 'John', rating: 5, comment: 'This recipe is amazing!', image: 'https://www.simplyhappyfoodie.com/wp-content/uploads/2018/11/classic-slow-cooker-beef-stew-1.jpg' },
+    { id: 2, user: 'Jane', rating: 4, comment: 'It was pretty good! you got to try the Thai Peanut Dressing.', image: 'https://urbanblisslife.com/wp-content/uploads/2018/01/Thai-Peanut-Sauce-overhead.jpg' },
+    { id: 3, user: 'Bob', rating: 3, comment: 'It was just okay.', image: 'https://freezermealfrenzy.com/wp-content/uploads/2019/06/tjoesglutenfreepankcakes02.jpg' },
+    { id: 4, user: 'Alice', rating: 2, comment: 'Please follow the recipe :(.', image: 'https://www.budgetbytes.com/wp-content/uploads/2020/07/4-Cook-Chicken.jpg' },
+    { id: 5, user: 'Charlie', rating: 5, comment: 'Best recipe ever! Thai Peanut Dressing with chicken ..DELICIOUS ', image: 'https://www.recipetineats.com/wp-content/uploads/2019/03/Thai-Satay-Chicken_8.jpg?w=500&h=500&crop=1' },
+    { id: 6, user: 'Eve', rating: 4, comment: 'I am about to try Roasted Butternut Squash Quinoa Salad.', image: 'https://www.simplyscratch.com/wp-content/uploads/2022/09/Butternut-Squash-Kale-Quinoa-l-SimplyScratch.com-1-700x1049.jpg' },
   ]);
 
   const renderStars = (rating) => {
