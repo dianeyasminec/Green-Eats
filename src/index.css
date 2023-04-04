@@ -134,6 +134,20 @@ form label span {
   margin-bottom: 10px;
 }
 
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  background-color: #f8f8f8;
+}
+
+.center img {
+  width: 400px;
+  height: 400px;
+  border-radius: 10px;
+}
+
 /* careers list */
 
 

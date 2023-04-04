@@ -14,8 +14,11 @@ const {details} =  props
 
   return (
     <>
+    <div class="center">
+  <img src="https://i.pinimg.com/originals/14/5f/ed/145fedd4067dd93078bd4afa181fd649.gif" alt="food gif"/>
+</div>
     <div className='lead'>
-      <h1 className='text-center '>Fresh and Healthy Meals</h1>
+      <h1 className='text-center p-2'>Fresh and Healthy Meals</h1>
       <p className='text-center'>Welcome to our recipes page! We know that finding the perfect recipe can be a challenge, 
         which is why we've designed our recipe layout with you in mind. Our sophisticated layout 
         combines the best of both worlds - a grid view layout for easy browsing, and a single-page
