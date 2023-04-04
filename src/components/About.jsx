@@ -4,7 +4,7 @@ import gif from './Images/sl11.jpg'
 export default function About() {
   return (
     <div className='text-center'>
-     <div>
+     <div className='page-image'>
       <img src={gif} alt="My animated GIF" className='homepage-image'/>
       <p>~Food is not just eating energy. It's an experience~</p>
     </div>
